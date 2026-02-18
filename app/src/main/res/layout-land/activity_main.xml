@@ -8,10 +8,23 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <LinearLayout
+        android:id="@+id/llPerfil"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    </LinearLayout>
     <ImageView
         android:id="@+id/ivPerfil3"
         android:layout_width="260dp"
-        android:layout_height="260dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintStart_toEndOf="@id/ivPerfil2"
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/avatars" />
@@ -19,7 +32,8 @@
     <ImageView
         android:id="@+id/ivPerfil2"
         android:layout_width="260dp"
-        android:layout_height="260dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintStart_toEndOf="@id/ivPerfil"
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/avatars" />
@@ -34,13 +48,14 @@
         android:text="@string/presentation"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ivPerfil"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/llPerfil" />
 
     <ImageView
         android:id="@+id/ivPerfil"
         android:layout_width="260dp"
-        android:layout_height="260dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="20dp"
+        android:elevation="-10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/avatars" />
@@ -53,7 +68,6 @@
         android:orientation="horizontal"
         android:paddingHorizontal="16dp"
         android:paddingVertical="27dp"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tvDescripcion"
         app:layout_constraintTop_toBottomOf="@+id/ivPerfil2">
         >
@@ -83,8 +97,6 @@
         android:orientation="horizontal"
         android:paddingHorizontal="16dp"
         android:paddingVertical="27dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/tvDescripcion"
         app:layout_constraintTop_toBottomOf="@+id/llh1">
 
@@ -110,8 +122,8 @@
         style="@style/lbl_experiencia"
         android:layout_width="130dp"
         android:layout_height="135dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="164dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="165dp"
         android:backgroundTint="@color/black"
         android:elevation="5dp"
         android:text="@string/share"

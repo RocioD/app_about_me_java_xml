@@ -8,6 +8,35 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
+
+    <LinearLayout
+        android:id="@+id/llPerfil"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="29dp"
+        android:paddingVertical="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivPerfil"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="29dp"
+        android:elevation="-10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
     <TextView
         android:id="@+id/tvDescripcion"
         style="@style/title_presentation"
@@ -20,19 +49,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ivPerfil"
+        app:layout_constraintTop_toBottomOf="@+id/llPerfil"
         app:layout_constraintVertical_bias="0.0" />
-
-    <ImageView
-        android:id="@+id/ivPerfil"
-        android:layout_width="match_parent"
-        android:layout_height="409dp"
-        android:layout_marginTop="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars" />
 
     <LinearLayout
         android:id="@+id/llh1"
@@ -99,11 +117,13 @@
         android:layout_height="135dp"
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="340dp"
-        android:elevation="5dp"
+        android:elevation="2dp"
         android:text="@string/share"
         style="@style/lbl_experiencia"
         android:backgroundTint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
