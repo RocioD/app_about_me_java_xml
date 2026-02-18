@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="title_presentation">
+        <item name="android:textSize">@dimen/medium_title_size</item>
+        <item name="android:textColor">@color/amber100</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:typeface">sans</item>
+    </style>
+    <style name="lbl_experiencia">
+        <item name="android:textSize">@dimen/medium_text_size</item>
+        <item name="android:textColor">@color/red50</item>
+        <item name="android:typeface">sans</item>
+    </style>
+    <style name="lbl_motivacion">
+        <item name="android:textSize">@dimen/medium_text_size</item>
+        <item name="android:textColor">@color/red300</item>
+        <item name="android:typeface">sans</item>
+    </style>
+    <style name="res_experiencia">
+        <item name="android:textSize">@dimen/common_text_size</item>
+        <item name="android:textColor">@color/brown900</item>
+        <item name="android:typeface">sans</item>
+    </style>
+    <style name="res_motivacion">
+        <item name="android:textSize">@dimen/common_text_size</item>
+        <item name="android:textColor">@color/pink800</item>
+        <item name="android:typeface">sans</item>
+    </style>
+    <style name="title_about">
+        <item name="android:textSize">@dimen/large_title_size</item>
+        <item name="android:textColor">@color/lime300</item>
+        <item name="android:typeface">serif</item>
+    </style>
+    <style name="redes">
+        <item name="android:textSize">@dimen/large_title_size</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:typeface">serif</item>
+    </style>
+    <style name="message">
+        <item name="android:textSize">@dimen/medium_title_size</item>
+        <item name="android:textColor">@color/red900</item>
+        <item name="android:typeface">serif</item>
+    </style>
+</resources>

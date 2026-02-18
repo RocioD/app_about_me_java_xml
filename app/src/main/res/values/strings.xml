@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">App About Me</string>
+    <string name="presentation">Soy Rocío Díaz Desarrolladora de Software</string>
+    <string name="lbl_experience">AÑOS DE EXPERIENCIA</string>
+    <string name="lbl_motivation">NIVEL DE MOTIVACIÓN</string>
+    <string name="res_motivation">Altamente comprometida</string>
+    <string name="share">Compartir</string>
+    <string name="about_me">Contacto</string>
+    <string name="linkedin">LINKEDIN</string>
+    <string name="call">LLAMAR</string>
+    <string name="messagge">NUEVO MENSAJE</string>
+    <string name="contact_me">CONTACTARME</string>
+</resources>
